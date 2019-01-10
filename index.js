@@ -70,3 +70,5 @@ console.log(a);
 //Execution stack: cuando se invoca a una funcion se coloca en un stack que se llena con cada linea del codigo
 // Cada funcion crea un execution conext que crea y ejecuta el codigo. Cuando se termina de ejecutar una funcion
 // esta sale del stack de ejecucion. 
+
+
