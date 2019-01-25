@@ -64,20 +64,28 @@
 
 //JSON ES MUY SIMILAR A LA DEFINICIÓN DE UN OBJECTO EN JS, PERO NO SON LO MISMO
 
-var objectLiteral = {
-    firstname: 'Stewart',
-    isAProgrammer: true
-};
+// var objectLiteral = {
+//     firstname: 'Stewart',
+//     isAProgrammer: true
+// };
 
-console.log(objectLiteral);
-console.log(JSON.stringify(objectLiteral));         // JSON.stringify() convert object to json
+// console.log(objectLiteral);
+// console.log(JSON.stringify(objectLiteral));         // JSON.stringify() convert object to json
 
 
 
-var jsonValue = 
-JSON.parse('{"firstname": "Stewart","isAProgrammer": true}'); //JSON.parse() convert json to object
+// var jsonValue = 
+// JSON.parse('{"firstname": "Stewart","isAProgrammer": true}'); //JSON.parse() convert json to object
 console.log(jsonValue);
 //AL TRANSMITIR UN ARCHIVO XML POR INTERNET SE ENVÍAN 2 DEFINICIONES DE LA PROPIEDAD POR DATO
  //EN JSON LAS PROPIEDADES TIENEN QUE ESTAR RODEADAS POR ""
 
  //EN JS CADA OBJETO OUEDE SER TRANSFORMADO A UN JSON
+
+ //////////////////////////////////////////////////////////////////////////
+///////////////////////FUNCTIONS ARE OBJECTS//////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+//FIRST CLASS FUNCTION
+//FUNCTION IS A SPECIAL TYPE OF OBJECT, everything we can do with types, can be done with functions
+//Functions posee 2 características importantes, el nombre (puede ser anónimo) y el código(invocable-execution context) que contiene
