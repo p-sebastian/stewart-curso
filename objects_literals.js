@@ -76,7 +76,7 @@
 
 // var jsonValue = 
 // JSON.parse('{"firstname": "Stewart","isAProgrammer": true}'); //JSON.parse() convert json to object
-console.log(jsonValue);
+//console.log(jsonValue);
 //AL TRANSMITIR UN ARCHIVO XML POR INTERNET SE ENVÍAN 2 DEFINICIONES DE LA PROPIEDAD POR DATO
  //EN JSON LAS PROPIEDADES TIENEN QUE ESTAR RODEADAS POR ""
 
@@ -89,3 +89,13 @@ console.log(jsonValue);
 //FIRST CLASS FUNCTION
 //FUNCTION IS A SPECIAL TYPE OF OBJECT, everything we can do with types, can be done with functions
 //Functions posee 2 características importantes, el nombre (puede ser anónimo) y el código(invocable-execution context) que contiene
+
+function greet() {
+    console.log('hi');
+}
+greet.language = 'English';
+
+console.log(greet);             //Texto escrito dentro de la función-objeto
+console.log(greet.language);
+
+//Las funciones no solo son contenedores de código en js, son objetos y se les puede asignar propiedades
