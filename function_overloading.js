@@ -70,3 +70,4 @@ var person = {
     lastname: 'Macias'
 }
 console.log(person);
+
